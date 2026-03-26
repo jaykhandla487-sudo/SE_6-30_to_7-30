@@ -1,0 +1,153 @@
+ Module 1 – Overview of IT Industry
+
+
+
+Q-1 Explain in your own words what a program is and how it functions.
+A program is a set of instructions written in a programming language that a computer
+can execute to perform a specific task. It works by taking input, processing it, and
+producing output based on logical operations.
+Write a simple "Hello World" program in two different programming languages of your
+choice. Compare the structure and syntax.
+
+
+1) C Program:
+#include <stdio.h>
+int main() {
+ printf("Hello World");
+ return 0;
+}
+
+
+
+
+
+2) Python Program:
+print("Hello World")
+Comparison:
+- C requires structure, header file, main function, and semicolons.
+- Python is simpler and does not require a main function.
+
+
+
+Q2. What are the key steps involved in the programming process?
+Types
+Understanding the problem
+2. Planning the solution
+3. Writing the code
+4. Testing the program
+5. Debugging errors
+6. Deploying the program
+7. Maintaining and updating
+
+Q-3 what are the main differences between high-level and low-level programming
+languages?
+High-Level: Easy to read, close to human language, portable (Python, Java). Low-Level:
+Close to machine code, fast, hardware-dependent (Assembly).
+
+Q-4 Describe the roles of the client and server in web communication
+Client sends requests, server processes the request and returns data.
+
+
+Q-5 Explain the function of the TCP/IP model and its layers.
+Transport, Internet, Network Access. It ensures data moves safely between devices.
+
+Q-6 Explain Client Server Communication
+Clients request services and servers respond by serving resources like data or files.
+
+Q-7 How does broadband differ from fiber-optic internet?
+Broadband uses copper cables, slower. Fiber uses light signals, much faster and more
+stable.
+
+Q-8 what are the differences between HTTP and HTTPS protocols?
+HTTP is not encrypted; HTTPS is secure with SSL/TLS encryption.
+
+Q-9What is the role of encryption in securing applications?
+Encryption protects data by converting it into unreadable form, ensuring security.
+
+Q-10What is the difference between system software and application software?
+System software manages hardware (OS). Application software helps users perform tasks
+(browser, games).
+
+Q-11What is the significance of modularity in software architecture?
+Modularity means breaking software into small components for easier development and
+maintenance.
+
+Q-12Why are layers important in software architecture?
+Layers separate responsibilities, making systems easier to maintain and scale.
+
+Q-13Explain the importance of a development environment in software production
+A development environment provides tools, libraries, and setup required to write and
+test software.
+
+Q-14What is the difference between source code and machine code?
+Source code is human-readable. Machine code is binary instructions understood by
+computers.
+
+Q-15Why is version control important in software development?
+Version control tracks code changes, supports teamwork, and avoids data loss.
+
+Q-16What are the benefits of using Github for students?
+It helps in learning collaboration, storing projects, and building a portfolio.
+
+Q-17What are the differences between open-source and proprietary software?
+Open-source is free and modifiable. Proprietary is paid and closed-source.
+
+Q-18How does GIT improve collaboration in a software development team?
+Git allows branching, merging, and tracking changes, enabling team collaboration.
+
+Q-19What is the role of application software in businesses?
+Application software improves productivity, automation, and decision-making.
+
+Q-20What are the main stages of the software development process?
+1. Requirement Analysis
+2. Design
+3. Development
+4. Testing
+5. Deployment
+6. Maintenance
+
+Q-21Why is the requirement analysis phase critical in software development?
+It ensures developers understand what the user needs before development.
+
+Q-22What is the role of software analysis in the development process?
+Analysis determines system requirements, functionality, and constraints.
+
+Q-23What are the key elements of system design?
+Architecture, data flow, database design, UI, security, and components.
+
+Q-24Why is software testing important?
+Testing finds bugs and ensures software works correctly.
+
+Q-25What types of software maintenance are there?
+1. Corrective
+2. Adaptive
+3. Perfective
+4. Preventive
+
+Q-26What are the key differences between web and desktop applications?
+Web runs in browser. Desktop installs locally. Web is accessible anywhere; desktop is
+faster.
+
+Q-27What are the advantages of using web applications over desktop applications?
+No installation, automatic updates, cross-device accessibility.
+
+Q-28What role does UI/UX design play in application development?
+UI/UX makes apps easy to use, increasing user satisfaction.
+
+Q-29What are the differences between native and hybrid mobile apps?
+Native is platform-specific and faster. Hybrid works on multiple platforms but slightly
+slower.
+
+Q-30What is the significance of DFDs in system analysis?
+DFDs show how data moves through a system, improving clarity.
+
+Q-31What are the pros and cons of desktop applications compared to web
+applications?
+Pros: Fast, works offline. Cons: Needs installation, device-specific.
+
+Q-32 How do flowcharts help in programming and system design?
+Flowcharts help in programming and system design by providing a clear, visual
+representation of the steps, decisions, and flow of a process. They make it easier to
+understand logic, plan programs, identify errors, and communicate ideas. In system design,
+flowcharts break complex systems into simple parts, show the flow of data, and help teams
+understand how the entire system works
