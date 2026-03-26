@@ -1,0 +1,66 @@
+#include <stdio.h>
+
+int main()
+{
+    int choice, qty;
+    int total = 0;
+    char more;
+
+    do
+    {
+        printf("\n--------- Manu ---------\n");
+        printf("1. Pizza   price = 180rs/pcs\n");
+        printf("2. Burger  price = 100rs/pcs\n");
+        printf("3. Dosa    price = 120rs/pcs\n");
+        printf("4. Idli    price = 50rs/pcs\n");
+
+        printf("Please Enter your choose... : ");
+        scanf("%d", &choice);
+
+        printf("Enter the quantity : ");
+        scanf("%d", &qty);
+
+        if(choice == 1)
+        {
+            printf("\nYou have selected Pizza.\n");
+            int amount = 180 * qty;
+            printf("Amount : %d\n", amount);
+            total = total + amount;
+        }
+        else if(choice == 2)
+        {
+            printf("\nYou have selected Burger.\n");
+            int amount = 100 * qty;
+            printf("Amount : %d\n", amount);
+            total = total + amount;
+        }
+        else if(choice == 3)
+        {
+            printf("\nYou have selected Dosa.\n");
+            int amount = 120 * qty;
+            printf("Amount : %d\n", amount);
+            total = total + amount;
+        }
+        else if(choice == 4)
+        {
+            printf("\nYou have selected Idli.\n");
+            int amount = 50 * qty;
+            printf("Amount : %d\n", amount);
+            total = total + amount;
+        }
+        else
+        {
+            printf("Invalid choice!\n");
+        }
+
+        printf("Total Amount is = %d\n", total);
+
+        printf("Do you want place more orders ? y & n : ");
+        scanf(" %c", &more);
+
+    } while(more == 'y' || more == 'Y');
+
+    printf("\nFinal Bill = %d Rs\n", total);
+
+    return 0;
+}
